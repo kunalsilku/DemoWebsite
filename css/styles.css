@@ -39,6 +39,10 @@ body {
   font-size: 1.8em;
 }
 
+#nav-list >.active > a {
+  background: #ff99aa;
+}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #ff99aa;
 }
@@ -103,7 +107,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/projects.png') no-repeat;
+  background: url('../images/expertise.jfif') no-repeat;
   background-size: 100% 100%;
 }
 #specials-tile {
